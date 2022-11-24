@@ -25,3 +25,19 @@ Vinderen er den med flest points.
 
 # Kravspecifikation
 
+| Skal        | Test       |
+|:-----------:|------------|
+| Kaste terninger |  |
+| Låse terninger |  |
+| Opkrive point |  |
+| Udregne point |  |
+| Vurdere en vinder |  |
+| Skifte spiller (i rigtig rekkefølge) |  |
+| Fortsætte til alle spilleres plader er fulde |  |
+
+
+| Kan    | Test    |
+|:----:| ---- |
+| Pauses |  |
+| Leaderboard (med game history) |  |
+
