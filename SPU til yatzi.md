@@ -27,17 +27,18 @@ Vinderen er den med flest points.
 
 | Skal        | Test       |
 |:-----------:|------------|
-| Kaste terninger |  |
-| Låse terninger |  |
-| Opkrive point |  |
-| Udregne point |  |
-| Vurdere en vinder |  |
-| Skifte spiller (i rigtig rekkefølge) |  |
-| Fortsætte til alle spilleres plader er fulde |  |
+| Kaste terninger | Aktiver terninge kast og sikrer at de stopper efter 1 sekund |
+| Låse terninger | 1. Vælg terning, start kast og se at den forbliver det samme efter 2. Vælg låst terning, start kast og se at den ændres |
+| Opskrive point | 1. Vælg felt og se rigtigt antal point blive skrevet op 2. Vælg felt med points på og sikre de ikke bliver overskrevet 3. Vælg et felt hvor terningerne ikke kan give points og sikre der ikke sker noget |
+| Udregne point | 1. Spil et spil hvor alle felter får points og regn efter 2. Spil et spil med nogle felter uden points og regn efter |
+| Vurdere en vinder | 1. Spil et spil med to og efter regn vinder 2. Spil med flere og sikre den vælger personen med flest points |
+| Skifte spiller (i rigtig rekkefølge) | 1. Kør et spil med to og sikre den skifter mellem de to 2. Kør et spil med flere spillere og sikre den skifter fra 1 til 2 til n'de spiller |
+| Fortsætte til alle spilleres plader er fulde | Kør et spil med flere spiller og sikre den først stopper når alle felter er fyldt |
+| Timer der skifter spiller | Start rundte og vent 10 sekunder og sikre terningerne kastes igen |
 
 
 | Kan    | Test    |
 |:----:| ---- |
-| Pauses |  |
-| Leaderboard (med game history) |  |
+| Pauses | Tryk esc og sikre timeren stopper |
+| Leaderboard (med game history) | Spil nogle spil, luk spillet og start igen og sikre skorende stadig står der |
 
