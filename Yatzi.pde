@@ -17,3 +17,7 @@ void draw(){
   startRunde();
   }
 }
+
+//ahahah
+//sut din far
+//diller
