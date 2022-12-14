@@ -1,4 +1,5 @@
-Boolean mainMenu=true, gameMode=false;
+//Program modes
+Boolean MainMenu=true, GameMode=false;
 
 /*
 Sæt programmet op
@@ -6,18 +7,49 @@ Tegn menuskærm
 */
 void setup(){
   
-  mainMenu = true;
 }
 
 
 void draw(){
-  if(mainMenu){
+  if(MainMenu){
     menu();
-  } else if (gameMode) {
-  startRunde();
+  } else if (GameMode) {
+  startRound();
   }
 }
 
-//ahahah
-//sut din far
-//diller
+//Main menu display and functionality
+void menu(){}
+
+//Draws the gamescreen
+void gameScreen(){}
+
+//Updates what the dice displays
+void screenDice(){}
+
+//Updates what the bord shows
+void screenBord(){}
+
+//Keeps the time for the round
+void timer(){}
+
+//Checks when and what is pressed by the mouse
+void mousePress(){}
+
+//Runs the main game
+void startRound(){}
+
+//Generates the numbers for the dice
+void hitDice(){}
+
+//Saves the chosen dice for the next hit
+void chooseDice(){}
+
+//Chooses the points for the bord
+void choosePoints(){}
+
+//Calculates the score and selects a winner
+void Selectwinner(){}
+
+//Resets values and starts a new game
+void newGame(){}
