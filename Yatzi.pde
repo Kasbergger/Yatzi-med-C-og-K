@@ -1,16 +1,28 @@
 //Program modes
-Boolean MainMenu=true, GameMode=false;
+Boolean MainMenu=true, GameMode=false, rolldice = false;
 
-/*
-Sæt programmet op
-Tegn menuskærm
-*/
+//Objekter
+PFont boardFont; //Font objekt
+PImage bg; //Background
+
+//Spillebræts koordinater
+int[][] gameboard = new int[6][18];
+
+/**
+ * Sæt programmet op
+ * Tegn menuskærm
+ */
 void setup(){
+  size(850, 850);
+  boardFont = createFont("Arial", 24, true); //Font setup
   
+  bg = loadImage("Yatzi_plade.png");
 }
 
 
 void draw(){
+  textFont(boardFont);
+  fill(0);
   if(MainMenu){
     menu();
   } else if (GameMode) {
@@ -19,7 +31,9 @@ void draw(){
 }
 
 //Main menu display and functionality
-void menu(){}
+void menu(){
+  background(#FF69B0);
+}
 
 //Draws the gamescreen
 void gameScreen(){}
@@ -28,7 +42,9 @@ void gameScreen(){}
 void screenDice(){}
 
 //Updates what the bord shows
-void screenBord(){}
+void screenBord(){
+  background(bg);
+}
 
 //Keeps the time for the round
 void timer(){}
@@ -37,7 +53,13 @@ void timer(){}
 void mousePress(){}
 
 //Runs the main game
-void startRound(){}
+void startRound(){
+  screenBord();
+  screenDice();
+  if(rolldice = true) {
+     hitDice(); 
+  }
+}
 
 //Generates the numbers for the dice
 void hitDice(){}
